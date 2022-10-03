@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------background design-------------- */
+main {
+    background-color: #FCFBFF;
+    width: 1920px;
+    height: 1189px;
+}
+/* ----------------display_flex class declaration---------- */
+.display_flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.display_flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.display_flex_center{
+    justify-content: center;
+    align-items: center;
+}
+.display_flex_row_left{
+    justify-content: left;
+    align-items: center;
+}
+.display_flex_column_left{
+    justify-content: center;
+    align-items: left;
+}
+
+.display_flex_row_end_align_center{
+    justify-content: end;
+    align-items: center;
+    
+}
+.display_flex_row_justify_betn{
+    justify-content: space-between;
+}
+.gap{
+    gap: 22px;
+}
+.shadow_color{
+    color: #7D7D7E;
+}
+.red{
+    color: #FF7901;
+}
+.bottom_5px_padding{
+    padding-bottom: 5px;
+}
+/* -----------------sidebar_part start--------------------- */
+
+#side_navigation_bar{
+    /* position: relative; */
+    width: 224px;
+    height: 1189px;
+    /* left: 0px;
+    top: 0px; */
+    background: #000000;
+}
+
+#web_top_logo{
+    position: relative;
+    width: 124.47px;
+    height: 68.21px;
+    left: 50px;
+    top: 11px;
+}
+
+#navbar_items{
+    margin-left: 30px;
+    position: absolute;
+    top: 123px;
+    /* background-color: brown; */
+}
+.item{
+    height: 40px;
+    /* background-color: aqua; */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.icon{
+    margin-left: 12px;
+    padding-right: 22px;
+}
+.nav_name{
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #7D7D7E;
+
+}
+
+
+#dashboard{
+    margin-right: 65px;
+}
+#lookup{
+    margin-right: 93px;
+}
+#files{
+    margin-right: 109px;
+}
+#logs{
+    margin-right: 29px;
+}
+#dropdown{
+    padding-left: 72px;
+}
+#buy_credits{
+    margin-right: 63px;
+}
+#integrations{
+    margin-right: 58px;
+}
+#my_profile{
+    margin-right: 76px;
+}
+.active{
+    color: #FFFFFF;
+}
+/* -----------------sidebar_part end-------------------- */
+/* ------------------topbar_part start---------------------- */
+#top_bar{
+    /* position: absolute; */
+    width: 1696px;
+    height: 90px;
+    /* top: 0px;
+    left: 224px; */
+    
+
+    background: #000000;
+}
+
+#balance{
+    color: #FFFFFF;
+    margin-right: 30px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* background-color: chartreuse; */
+}
+#balance_font{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* background-color: brown; */
+}
+#balance_amount{
+    color: #FF7901;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    /* background-color: cornflowerblue; */
+}
+#user_profile{
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 45px;
+    margin-right: 30px;  
+}
+#user_image{
+    padding: 10px;
+}
+#user_name{
+width: 90px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #26262E;
+padding-top: 15px;
+padding-right: 18px;
+}
+#user_dropdown{
+    width: 12px;
+    height: 6px;
+    padding-right: 20px;
+    padding-top: 27px;
+}
+
+/* ------------------topbar_part end---------------------- */
+/* ------------------container_row_1 start---------------------- */
+#profile_information{
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 325px;
+    height: 334px;
+    margin: 30px;
+    /* left: 254px;
+    top: 120px; */
+
+    /* White */
+
+    background: #FFFFFF;
+    /* #F2F2F4 */
+
+    border: 1px solid #F2F2F4;
+    border-radius: 10px;
+}
+#profile_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+}
+#credit_card_information{
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 1281px;
+height: 334px;
+margin-top: 30px;
+margin-bottom: 30px;
+/* left: 609px;
+top: 120px; */
+
+/* White */
+
+background: #FFFFFF;
+/* #F2F2F4 */
+
+border: 1px solid #F2F2F4;
+border-radius: 10px;
+}
+#credit_card_section{
+    font-size: 24px;
+    line-height: 30px;
+    color: #26262E;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.card_box{
+    box-sizing: border-box;
+    width: 387px;
+    height: 154px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F4;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #7D7D7E;
+   
+}
+.card_box_active{
+    box-sizing: border-box;
+    width: 387px;
+    height: 154px;
+    background: #FFFFFF;
+    border: 1px solid #FF7901;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: #26262E;
+}
+.credit_card_name{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.delete_icon{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.credit_card_number{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #BDBDBD;
+}
+
+/* ------------------container_row_1 end---------------------- */
+/* ------------------container_row_2 start---------------------- */
+#container_second_row{
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 1636px;
+    height: 659px;
+    margin-left: 30px;
+    /* left: 254px;
+    top: 484px; */
+
+    /* White */
+
+    background: #FFFFFF;
+    /* #F2F2F4 */
+
+    border: 1px solid #F2F2F4;
+    border-radius: 10px;
+}
+#account_tabs{
+    padding-top: 30px;
+    border: 2px solid #F2F2F4;
+}
+.account_tab{
+    /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center; */
+padding: 10px 16px;
+gap: 6px;
+height: 48px;
+border-radius: 10px 10px 0px 0px;
+background-color: transparent;
+border: none;
+}
+.tab_font{
+    font-size: 16px;
+    line-height: 28px;
+    color: #26262E;
+}
+.tab_font_active{
+    color: #FF7901;
+}
+.account_tab_active{
+    color: #FF7901;
+    border-bottom: 2px solid #FF7901;
+}
+
+#account_body{
+    margin-left: 318px;
+    margin-top: 53px;
+    
+}
+
+/* --------------hover start------------ */
+.click_switch{
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #FF7901;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.off_switch{
+    
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+   
+  margin-left: 5px;
+
+    /* Brand Color */
+
+    background: #FF7901;
+    border-radius: 20px;
+    border: 1px solid #FF7901;
+}
+.click_switch:hover{
+    background: #FF7901;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.off_switch:hover{
+    background: white;
+   
+}
+/* --------------hover stop------------ */
+.notice{
+    margin-bottom: 30px;
+}
+.notification{
+    font-size: 16px;
+    line-height: 32px;
+    
+}
+#account_body_mail_part{
+    width: 1000px;
+    border-bottom: 2px solid #F2F2F4;
+    border-top: 2px solid #F2F2F4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+#input_part{
+    margin-left: 70px;
+}
+.input_box{
+    box-sizing: border-box;
+    width: 450px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F4;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#save_button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 6px;
+width: 150px;
+height: 48px;
+background: #FF7901;
+box-shadow: 0px 20px 50px rgba(255, 121, 1, 0.3);
+border-radius: 5px;
+color: #FFFFFF;
+}

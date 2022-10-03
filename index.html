@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerLookup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./layoutstyle.css">
+</head>
+<body>
+    <main class="display_flex_row">
+        <!-- sidebar_part start -->
+
+        <section id="side_navigation_bar">
+            <div>
+                <img id="web_top_logo" src="./images/web_top_logo.png" alt="">
+            </div>
+            <!-- nav_items -->
+            <div id="navbar_items" class="display_flex_column display_flex_column_left">
+            
+            
+                <a id="dashboard" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/dashboard 101.png" alt="">
+                    <div id="" class="nav_name">Dashboard</div>
+                </a>
+                <a id="lookup" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/search-svgrepo-com 102.png" alt="">
+                    <div id="" class="nav_name">Lookup</div>
+                </a>
+                <a id="files" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/stacked-files-svgrepo-com 103.png" alt="">
+                    <div id="" class="nav_name">Files</div>
+                </a>
+                <a id="logs" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/log-svgrepo-com 104.png" alt="">
+                    <div id="" class="nav_name">Logs</div>
+                    <img id="dropdown"src="./images/Vector 102dropdown.png" alt="">
+                </a>
+                <a id="buy_credits" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/buy-button 105.png" alt="">
+                    <div id="" class="nav_name">Buy Credits</div>
+                </a>
+                <a id="integrations" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/distribute 106.png" alt="">
+                    <div id="" class="nav_name">Integrations</div>
+                </a>
+                <a id="my_profile" class="item display_flex_row display_flex_row_left" href="">
+                    <img id="dashboard_logo" class="icon" src="./images/user 107.png" alt="">
+                    <div id="" class="nav_name active">My Profile</div>
+                </a>
+
+            </div>
+            
+        </section>
+
+        <!-- sidebar_part end -->
+
+        <section id="top_bar_and_main_contain" class="display_flex_column">
+            <!-- Topbar_part start -->
+            <section id="top_bar" class="display_flex_row display_flex_row_end_align_center">
+                <div id="balance" class="display_flex_row display_flex_center">
+                    <span id="balance_font">Balance: </span> 
+                    <span id="balance_amount">$125</span>
+                </div>
+                <div id="user_profile" class="display_flex_row">
+                    <img id="user_image" src="./images/user_image.png" alt="">
+                    <span id="user_name">Alexa Jui</span>
+                    <img id="user_dropdown" src="./images/user_dropdown.png" alt="">
+                    
+                </div>
+                
+            </section>
+            <!-- Topbar_part end -->
+
+            <!-- container_part_1st_row start -->
+
+            <section id="container_first_row" class="display_flex_row">
+                <div id="profile_information" class="display_flex_column display_flex_center">
+                    <img src="./images/alexa_image.png" alt="">
+                    <h1 id="profile_name">Alexa Jui</h1>
+                    <p class="shadow_color bottom_5px_padding">alexajui@gmail.com</p>
+                    <p class="shadow_color bottom_5px_padding">+1 354 785 4125</p>
+                    <p class="shadow_color bottom_5px_padding">3213 D Street, Columbus, USA</p>
+                </div>
+                <div id="credit_card_information">
+                    <h1 id="credit_card_section">Your Credit Cards</h1>
+                    <div class="display_flex_row">
+                        <div class="card_box display_flex_column">
+                            <div class="display_flex_row display_flex_row_justify_betn">
+                                <h1 class="credit_card_name">Credit Card 1</h1>
+                                <img class="delete_icon" src="./images/delete_shadow.png" alt="">
+                            </div>
+                            
+                            <h1 class="credit_card_number">xxxxxxxxxxxx4684</h1>
+                        </div>
+                        <div class="card_box_active">
+                            <div class="display_flex_row display_flex_row_justify_betn">
+                                <h1 class="credit_card_name">Credit Card 2</h1>
+                                <img class="delete_icon" src="./images/delete_active.png" alt="">
+                            </div>
+                            
+                            <h1 class="credit_card_number">xxxxxxxxxxxx4684</h1>
+                        </div>
+                        <div class="card_box display_flex_column">
+                            <div class="display_flex_row display_flex_row_justify_betn">
+                                <h1 class="credit_card_name">Credit Card 3</h1>
+                                <img class="delete_icon" src="./images/delete_shadow.png" alt="">
+                            </div>
+                            
+                            <h1 class="credit_card_number">xxxxxxxxxxxx4684</h1>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- container_part_1st_row end -->
+
+            <!-- container_part_2nd_row start -->
+            <section id="container_second_row">
+
+                <div id="account_tabs" class="display_flex_row display_flex_center">
+                    <button class="account_tab"> <span class="tab_font">Update Profile </span> </button>
+                    <button class="account_tab"> <span class="tab_font">Change Password  </span> </button>
+                    <button class="account_tab account_tab_active"> <span class="tab_font tab_font_active">Email Notifications </span> </button>
+                    <button class="account_tab"> <span class="tab_font">Auto Recharge Settings </span> </button>
+                   
+                </div>
+
+                <div id="account_body">
+                    
+                    
+                    <div class="notice display_flex_row ">
+                        <div class="click_switch"> 
+                            <div class="off_switch"></div>
+                        </div>
+                        <p class="notification">Notify me when list verification completes</p>
+                    </div>
+
+                    <div class="notice display_flex_row ">
+                        <div class="click_switch"> 
+                            <div class="off_switch"></div>
+                        </div>
+                        <p class="notification">Notify me when list export completes</p>
+                    </div>
+
+                    <div class="notice display_flex_row ">
+                        <div class="click_switch"> 
+                            <div class="off_switch"></div>
+                        </div>
+                        <p class="notification">Notify me when list verification result is about to expire</p>
+                    </div>
+                    <!--  -->
+
+                    <div id="account_body_mail_part">
+                        <div class="notice display_flex_row ">
+                        <div class="click_switch"> 
+                            <div class="off_switch"></div>
+                        </div>
+                        <p class="notification">Receive Low Credits Email</p>
+                    </div>
+                     <div id="input_part" class="display_flex_row display_flex_row_justify_betn">
+                        <div>
+                        <h1 class="shadow_color notification">Send Email to<span class="red">*</span></h1>
+                        <input type="text" name="" class="input_box" placeholder="alexajui@gmail.com">
+                        </div>
+                        <div>
+                        <h1 class="shadow_color notification">When credits are less than<span class="red">*</span></h1>
+                        <input type="text" name="" id="" class="input_box">
+                        </div>
+                    </div>
+                    
+                    
+
+                    </div>
+
+                    
+                
+                <button id="save_button">Save Changes</button>
+                </div>
+               
+
+
+
+
+            </section>
+
+
+        </section>
+        
+
+    </main>
+</body>
+</html>
